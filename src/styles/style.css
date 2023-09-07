@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFCF9;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5%;
+}
+.iconHeader{
+    height: 27px;
+}
+
+.nav-left{
+    display: none;
+}
+/* main */
+
+main{
+    margin: 5%;
+    font-size:2.7rem;
+}
+
+main h1{
+    line-height: 4rem;
+}
+
+main p{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #5D5F79;
+}
+
+/* primer contenedor */
+
+.containerImg{
+    width: 100%;
+    height: 270px;
+    background-image: url(./images/image-web-3-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* segundo contenedor */
+
+.container-Bright{
+    margin: 20px 0;
+}
+.container-Bright p{
+    margin: 20px 0;
+}
+.containerAb a{
+    background-color: #F05D50;
+    width: 170px;
+    height: 45px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:#FFFCF9;
+}
+.containerAb a{
+    text-decoration: none;
+    color: #FFFCF9;
+    letter-spacing: 0.3rem;
+}
+
+/* terser contenedor */
+
+.container-New {
+    margin: 40px 0;
+    background-color: #000019;
+    padding: 20px 15px 0 15px;
+}
+.container-New h2 {
+    color: #E8AA53;
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+.container-New h3{
+    font-size: 2rem; 
+    margin: 10px 0;
+    color: #FFFCF9;
+}
+.container-New p{
+    color: #C5C6CD;
+}
+.container-New div{
+    padding: 20px 0;
+    border-bottom: 0.1px solid #c5c6cd85;
+}
+
+/* cuarto contenedor */
+
+.container-numers-N{
+    display: flex;
+    height: 150px;
+    margin: 30px 0;
+}
+.container-numers img{
+    width: 120px;
+}
+.container-numers-N div{
+    padding-left:20px;
+    height: 100%;
+}
+.container-numers h2{
+    color:#C5C6CD;
+}
+.container-numers h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin:10px 0 ;
+}
+
+/* menu amburguesa */
+.inactive{
+    display: none;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300%;
+    background-color: rgba(0, 0, 0, 0.423);
+}
+.menuBurger{
+    background: #FFFCF9;
+    width:265px;
+    height:60%;
+    margin-left: auto ;
+}
+.menuBurger img{
+    margin-left: 80%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.menuBurger li{
+    list-style: none;
+    margin: 25px 20px;
+    font-size: 1.7rem;
+    font-weight:500;
+}
+
+/* leer mas */
+
+.container-informacion{
+    background: #FFFCF9;
+    margin: 10% 20%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.container-informacion img{
+    cursor: pointer;
+}
+.container-informacion div{
+    padding: 5%;
+}
+.container-informacion h1{
+    font-size: 3.5rem;
+}
+.container-informacion p{
+    font-size: 1.5rem;
+    color: #40426f;
+    margin-top: 4%;
+}
